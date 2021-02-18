@@ -1,0 +1,12 @@
+
+$color-primary-light:#7ed56f;
+$color-primary-dark:#28b485;
+
+$grid-width:114rem;
+$vgutter:4rem;
+$hgutter:2rem;
+$nbcol:6;
+
+$col-width: ($grid-width - (($nbcol - 1) * $hgutter))/$nbcol;
+
+

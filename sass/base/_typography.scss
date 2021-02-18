@@ -1,0 +1,17 @@
+.heading-primary{
+    @extend %heading-text;
+    letter-spacing: 3rem;
+    font-weight: 800;
+    font-size: 6rem;
+    
+    
+
+}
+.heading-secondary{
+    @extend %heading-text;
+    letter-spacing: 1.6rem;
+    font-weight: 600;
+    font-size: 2rem;
+    
+    
+}

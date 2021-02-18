@@ -1,0 +1,33 @@
+.row{
+    max-width: $grid-width;
+    background-color: #eee;
+    margin: 0 auto; // to center block into block
+    @include clearfix;
+
+    &:not(:last-child){
+        margin-bottom: $vgutter;
+    }
+}
+
+   @for $i from 1 through $nbcol {
+
+    .col-#{$i}-#{$nbcol}{
+        width: generatecolwidth(#{$i},#{$nbcol});
+        float: left;
+        background-color: orangered;
+        height: 5rem;
+        
+
+    }
+       
+   }
+
+   [class^="col"]:not(:last-child){
+    margin-right: $hgutter;
+   
+
+
+ 
+
+}
+

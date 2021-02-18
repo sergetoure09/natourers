@@ -1,0 +1,3 @@
+@function generatecolwidth($n,$ncol){
+    @return calc((#{$n} * #{$col-width}) + (#{$n} - 1) * #{$hgutter})
+}

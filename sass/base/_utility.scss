@@ -1,0 +1,12 @@
+.u-animated-left{
+    animation: moveInLeft 2s ease-in;
+
+}
+.u-animated-right{
+    animation: moveInRight 2s ease-in;
+    
+}
+
+.u-animated-up{
+    animation: moveUp .5s ease-in .5s backwards;
+}
